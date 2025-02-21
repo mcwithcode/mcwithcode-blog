@@ -62,6 +62,8 @@ Cosmos DB は階層になっています。詳しくは [MS Learn](https://learn
 - コンテナ (effect の部分)
 - アイテム (Items の部分)
 
+<img src="https://raw.githubusercontent.com/mcwithcode/mcwithcode-blog/refs/heads/main/web/20250222/media/cosmos-db-items.webp" vspace="10">
+
 データベースの中にいくつかのコンテナ（RDBでいうところのテーブル）が格納されていて、そのコンテナの中にアイテム（RDBでいうところのレコード）が作られていきます。（そういえば昔、コンテナのことをコレクションといっていたような・・・？🤔）</br>
 
 アクセスするまでの実装として、例えばこんな感じに書きます。（このサイトの構成的に管理用と一般公開用でプロジェクトが別れているので、共通機能はライブラリとして別に実装しています。）
